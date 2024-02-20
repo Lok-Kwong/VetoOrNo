@@ -1,33 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Avatar, Box, Button, Card, CardActions, CardContent, Typography } from '@mui/material'
+
+const bull = (
+  <Box
+    component="span"
+  >
+    •
+  </Box>
+);
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='container'>
+        <h2 className='title'> Who won the trade? </h2>
+
+        <div className='tradeFeed'>
+          <Card>
+            <CardContent>
+              <Typography color="text.secondary" gutterBottom>
+                Team 1
+              </Typography>
+              <Avatar alt="Nikola Jokic" src="Frontend\bbal-app\src\assets\Jokic.avif" />
+
+
+            </CardContent>
+            <CardActions>
+              <Button size="small">Learn More</Button>
+            </CardActions>
+          </Card>
+
+          <img src="Frontend\bbal-app\src\assets\Two_Way_Arrow.jpg"></img>
+        </div>
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
