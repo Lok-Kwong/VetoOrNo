@@ -1,4 +1,6 @@
 import { Avatar, Box, Button, Card, CardActions, CardContent, Typography } from '@mui/material'
+import jokic from './assets/Jokic.avif'
+import arrow from './assets/Two_Way_Arrow.jpg'
 
 const bull = (
   <Box
@@ -21,7 +23,7 @@ function App() {
               <Typography color="text.secondary" gutterBottom>
                 Team 1
               </Typography>
-              <Avatar alt="Nikola Jokic" src="Frontend\bbal-app\src\assets\Jokic.avif" />
+              <Avatar alt="Nikola Jokic" src={jokic} />
 
 
             </CardContent>
@@ -30,7 +32,7 @@ function App() {
             </CardActions>
           </Card>
 
-          <img src="Frontend\bbal-app\src\assets\Two_Way_Arrow.jpg"></img>
+          <img src={arrow}></img>
         </div>
 
       </div>
