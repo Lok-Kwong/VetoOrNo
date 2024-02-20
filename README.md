@@ -6,6 +6,7 @@ MVP:
 1. Allow people to post their trades of players, upvote and downvote the trade
 2. Feed of trades
 3. Need a captcha for bots? (Maybe later)
+4. Comments
 
 What is the architecture?
 Frontend - TS/JS with what framework (prob doesn't matter)
