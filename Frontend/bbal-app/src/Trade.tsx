@@ -1,11 +1,12 @@
-import { Avatar, Box, Button, Card, CardActions, CardContent, Typography } from '@mui/material'
+import { Avatar, Button, Card, CardActions, CardContent, Typography } from '@mui/material'
 import jokic from './assets/Jokic.avif'
-import arrow from './assets/Two_Way_Arrow.jpg'
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+import { Icon } from '@mui/material';
 
 function Trade() {
     return (
-        <div>
-            <div>
+        <div className='tradeRow'>
+            <div className='teamOne'>
                 <Card>
                     <CardContent>
                         <Typography color="text.secondary" gutterBottom>
@@ -21,7 +22,7 @@ function Trade() {
                 </Card>
             </div>
 
-            <img src={arrow}></img>
+            <Icon className='arrow'>CompareArrowsIcon</Icon>
         </div>
 
 

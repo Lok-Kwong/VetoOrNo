@@ -64,3 +64,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.tradeRow {
+  display: flex;
+  align-items: center;
+}
+
+.teamOne {
+
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+}
