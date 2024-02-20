@@ -12,3 +12,11 @@ What is the architecture?
 Frontend - TS/JS with what framework (prob doesn't matter)
 Backend - C# ???
 DB - NoSQL probably?
+
+
+Instructions to run frontend:
+Need to install Node.js and put the environment variable into your PC
+npm install
+npm run dev
+
+https://www.figma.com/file/60b1mOzCZ6mL8CL7MhMRlW/Veto?type=design&node-id=0-1&mode=design&t=gLp7i9Nrmr3kaH5h-0
