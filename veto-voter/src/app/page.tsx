@@ -1,7 +1,6 @@
-import Trade from './Trade'
+import Trade from "@/components/Trade";
 
-function App() {
-
+export default function Home() {
   return (
     <>
       <div className='container'>
@@ -15,7 +14,5 @@ function App() {
 
       </div>
     </>
-  )
+  );
 }
-
-export default App

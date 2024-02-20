@@ -1,5 +1,4 @@
 import { Avatar, Button, Card, CardActions, CardContent, Typography } from '@mui/material'
-import jokic from './assets/Jokic.avif'
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import { Icon } from '@mui/material';
 
@@ -12,7 +11,7 @@ function Trade() {
                         <Typography color="text.secondary" gutterBottom>
                             Team 1
                         </Typography>
-                        <Avatar alt="Nikola Jokic" src={jokic} />
+                        <Avatar alt="Nikola Jokic" src='./Jokic.avif' />
 
 
                     </CardContent>
